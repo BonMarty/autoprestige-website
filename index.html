@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Autoprestige</title>
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div id="header__overlay">
+        <div class="container">
+          <div class="header__wrapper">
+            <a href="#" class="header__logo">AutoPrestige</a>
+            <nav class="header__nav" id="header__nav">
+              <ul class="nav__list">
+                <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+                <li class="nav__item"><a href="#services" class="nav__link">Services</a></li>
+                <li class="nav__item"><a href="#gallery" class="nav__link">Gallery</a></li>
+              </ul>
+            </nav>
+            <button class="button header__enroll modal__open" data-modal="enroll-modal">
+              <span class="button__span enroll__span header__span">Enroll</span>
+            </button>
+            <button class="burger" id="burger">
+              <span class="burger__line"></span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main class="main">
+      <section class="hero" id="home">
+        <div class="container">
+          <div class="hero__wrapper">
+            <div class="hero__content">
+              <h1 class="hero__title">
+                Repair of engines of domestic and foreign production. Overhaul of engine parts
+              </h1>
+              <div class="hero__info">
+                <button class="button hero__enroll modal__open" data-modal="enroll-modal">
+                  <span class="button__span hero__span">Enroll</span>
+                </button>
+                <div class="hero__adress">
+                  123 Main Street, New York,<br />
+                  NY 10030
+                </div>
+                <div class="hero__time">
+                  Mon -Fri <br />
+                  8:00 - 17:00
+                </div>
+              </div>
+            </div>
+            <div class="hero__image">
+              <img src="./images/hero/hero-image.webp" alt="hero engine image" />
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="advantages">
+        <div class="container">
+          <div class="advantages__wrapper">
+            <div class="advantages__image">
+              <img src="./images/advantages/advantages-image1.webp" alt="advantages engine image" />
+            </div>
+            <div class="advantages__content">
+              <h2 class="advantages__title">Make a major overhaul</h2>
+              <h3 class="advantages__subtitle">
+                - We carry out services for the assembly and repair of any engine blocks
+              </h3>
+              <h4 class="advantages__subtitle">
+                - We repair parts of individual internal combustion engines
+              </h4>
+              <h5 class="advantages__subtitle">
+                - We wash engine parts in specialized washing installations
+              </h5>
+            </div>
+          </div>
+          <div class="advantages__wrapper">
+            <div class="advantages__content">
+              <div class="advantages__item">
+                <img src="./images/advantages/advantages-check-mark.svg" alt="check mark" />
+                <p class="advantages__name">Professional equipment</p>
+              </div>
+              <div class="advantages__item">
+                <img src="./images/advantages/advantages-check-mark.svg" alt="check mark" />
+                <p class="advantages__name">Performance guarantee</p>
+              </div>
+              <div class="advantages__item">
+                <img src="./images/advantages/advantages-check-mark.svg" alt="check mark" />
+                <p class="advantages__name">Experienced craftsmen</p>
+              </div>
+              <div class="advantages__item">
+                <img src="./images/advantages/advantages-check-mark.svg" alt="check mark" />
+                <p class="advantages__name">Availability of spare parts in our warehouse</p>
+              </div>
+              <div class="advantages__item">
+                <img src="./images/advantages/advantages-check-mark.svg" alt="check mark" />
+                <p class="advantages__name">High-precision selection and ordering at low prices</p>
+              </div>
+              <div class="advantages__item">
+                <img src="./images/advantages/advantages-check-mark.svg" alt="check mark" />
+                <p class="advantages__name">Performing only work agreed with the client</p>
+              </div>
+            </div>
+            <div class="advantages__image">
+              <img src="./images/advantages/advantages-image2.webp" alt="advantages engine image" />
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="services" id="services">
+        <div class="container">
+          <h2 class="title services__title">Our services</h2>
+          <div class="services__wrapper">
+            <div class="services__item">
+              <div class="services__overlay">
+                <h2 class="services__name">Overhaul of the ICE</h2>
+                <button class="button services__button">
+                  <span class="button__span services__span">Read more</span>
+                </button>
+              </div>
+            </div>
+            <div class="services__item">
+              <div class="services__overlay">
+                <h2 class="services__name">Wash engine parts</h2>
+                <button class="button services__button">
+                  <span class="button__span services__span">Read more</span>
+                </button>
+              </div>
+            </div>
+            <div class="services__item">
+              <div class="services__overlay">
+                <h2 class="services__name">Selection and ordering at low prices</h2>
+                <button class="button services__button">
+                  <span class="button__span services__span">Read more</span>
+                </button>
+              </div>
+            </div>
+            <div class="services__item">
+              <div class="services__overlay">
+                <h2 class="services__name">Overhaul of the ICE</h2>
+                <button class="button services__button">
+                  <span class="button__span services__span">Read more</span>
+                </button>
+              </div>
+            </div>
+
+            <div class="services__item">
+              <div class="services__overlay">
+                <h2 class="services__name">Wash engine parts</h2>
+                <button class="button services__button">
+                  <span class="button__span services__span">Read more</span>
+                </button>
+              </div>
+            </div>
+
+            <div class="services__item">
+              <div class="services__overlay">
+                <h2 class="services__name">Selection and ordering at low prices</h2>
+                <button class="button services__button">
+                  <span class="button__span services__span">Read more</span>
+                </button>
+              </div>
+            </div>
+            <div class="services__item">
+              <div class="services__overlay">
+                <h2 class="services__name">Overhaul of the ICE</h2>
+                <button class="button services__button">
+                  <span class="button__span services__span">Read more</span>
+                </button>
+              </div>
+            </div>
+
+            <div class="services__item">
+              <div class="services__overlay">
+                <h2 class="services__name">Wash engine parts</h2>
+                <button class="button services__button">
+                  <span class="button__span services__span">Read more</span>
+                </button>
+              </div>
+            </div>
+
+            <div class="services__item">
+              <div class="services__overlay">
+                <h2 class="services__name">Selection and ordering at low prices</h2>
+                <button class="button services__button">
+                  <span class="button__span services__span">Read more</span>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="gallery" id="gallery">
+        <div class="container">
+          <h2 class="title gallery__title">Gallery of work</h2>
+          <div class="gallery__wrapper">
+            <div class="gallery__images">
+              <div class="gallery__image">
+                <img src="./images/gallery/gallery-image.webp" alt="gallery image of work" />
+                <span class="gallery__span modal__open" data-modal="gallery-modal"
+                  ><img
+                    src="./images/gallery/gallery-fullscreen.svg"
+                    alt="gallery fullscreen image"
+                /></span>
+              </div>
+              <div class="gallery__image">
+                <img src="./images/gallery/gallery-image.webp" alt="gallery image of work" />
+                <span class="gallery__span modal__open" data-modal="gallery-modal"
+                  ><img
+                    src="./images/gallery/gallery-fullscreen.svg"
+                    alt="gallery fullscreen image"
+                /></span>
+              </div>
+              <div class="gallery__image">
+                <img src="./images/gallery/gallery-image.webp" alt="gallery image of work" />
+                <span class="gallery__span modal__open" data-modal="gallery-modal"
+                  ><img
+                    src="./images/gallery/gallery-fullscreen.svg"
+                    alt="gallery fullscreen image"
+                /></span>
+              </div>
+              <div class="gallery__image">
+                <img src="./images/gallery/gallery-image.webp" alt="gallery image of work" />
+                <span class="gallery__span modal__open" data-modal="gallery-modal"
+                  ><img
+                    src="./images/gallery/gallery-fullscreen.svg"
+                    alt="gallery fullscreen image"
+                /></span>
+              </div>
+              <div class="gallery__image">
+                <img src="./images/gallery/gallery-image.webp" alt="gallery image of work" />
+                <span class="gallery__span modal__open" data-modal="gallery-modal"
+                  ><img
+                    src="./images/gallery/gallery-fullscreen.svg"
+                    alt="gallery fullscreen image"
+                /></span>
+              </div>
+              <div class="gallery__image">
+                <img src="./images/gallery/gallery-image.webp" alt="gallery image of work" />
+                <span class="gallery__span modal__open" data-modal="gallery-modal"
+                  ><img
+                    src="./images/gallery/gallery-fullscreen.svg"
+                    alt="gallery fullscreen image"
+                /></span>
+              </div>
+              <div class="gallery__image">
+                <img src="./images/gallery/gallery-image.webp" alt="gallery image of work" />
+                <span class="gallery__span modal__open" data-modal="gallery-modal"
+                  ><img
+                    src="./images/gallery/gallery-fullscreen.svg"
+                    alt="gallery fullscreen image"
+                /></span>
+              </div>
+              <div class="gallery__image">
+                <img src="./images/gallery/gallery-image.webp" alt="gallery image of work" />
+                <span class="gallery__span modal__open" data-modal="gallery-modal"
+                  ><img
+                    src="./images/gallery/gallery-fullscreen.svg"
+                    alt="gallery fullscreen image"
+                /></span>
+              </div>
+              <div class="gallery__image">
+                <img src="./images/gallery/gallery-image.webp" alt="gallery image of work" />
+                <span class="gallery__span modal__open" data-modal="gallery-modal"
+                  ><img
+                    src="./images/gallery/gallery-fullscreen.svg"
+                    alt="gallery fullscreen image"
+                /></span>
+              </div>
+              <div class="gallery__image">
+                <img src="./images/gallery/gallery-image.webp" alt="gallery image of work" />
+                <span class="gallery__span modal__open" data-modal="gallery-modal"
+                  ><img
+                    src="./images/gallery/gallery-fullscreen.svg"
+                    alt="gallery fullscreen image"
+                /></span>
+              </div>
+              <div class="gallery__image">
+                <img src="./images/gallery/gallery-image.webp" alt="gallery image of work" />
+                <span class="gallery__span modal__open" data-modal="gallery-modal"
+                  ><img
+                    src="./images/gallery/gallery-fullscreen.svg"
+                    alt="gallery fullscreen image"
+                /></span>
+              </div>
+              <div class="gallery__image">
+                <img src="./images/gallery/gallery-image.webp" alt="gallery image of work" />
+                <span class="gallery__span modal__open" data-modal="gallery-modal"
+                  ><img
+                    src="./images/gallery/gallery-fullscreen.svg"
+                    alt="gallery fullscreen image"
+                /></span>
+              </div>
+            </div>
+            <button class="button gallery__button">
+              <span class="button__span">Show more</span>
+            </button>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container">
+        <div class="footer__wrapper">
+          <div class="footer__column">
+            <h2 class="footer__title"><a href="#" class="footer__logo">AutoPrestige</a></h2>
+            <div class="footer__year">2022</div>
+            <div class="footer__rights">© All rights reserved</div>
+          </div>
+          <div class="footer__column">
+            <div class="footer__adress">123 Main Street, New York, NY 10030</div>
+          </div>
+          <div class="footer__column">
+            <div class="footer__time">
+              Mon -Fri<br />
+              8:00 - 17:00
+            </div>
+          </div>
+          <div class="footer__column">
+            <div class="footer__phone">1-234-567-89-10</div>
+            <div class="footer__phone">1-234-567-89-10</div>
+            <div class="footer__phone">1-234-567-89-10</div>
+          </div>
+          <div class="footer__column">
+            <ul class="footer__social">
+              <li class="social__item">
+                <a href="https://instagram.com" class="social__link instagram" target="_blank">
+                  <i class="fa fa-instagram"></i>
+                </a>
+              </li>
+              <li class="social__item">
+                <a href="https://vk.com" class="social__link vk" target="_blank">
+                  <i class="fa fa-vk"></i>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <div class="modal" id="enroll-modal">
+      <button class="modal__close">&times;</button>
+      <div class="modal__header">
+        <p class="modal__text">
+          Leave us your contacts and we will contact you as soon as possible
+        </p>
+      </div>
+      <div class="modal__main">
+        <form action="">
+          <input class="input__name" placeholder="Enter name" />
+          <input class="input__phone" placeholder="Enter phone" />
+          <button class="button enroll__button">
+            <span class="button__span enroll__span">Send</span>
+          </button>
+        </form>
+      </div>
+      <div class="modal__footer">
+        <div class="modal__phone">1-234-567-89-10</div>
+        <div class="modal__adress">123 Main Street, New York, NY 10030</div>
+      </div>
+    </div>
+
+    <div class="modal" id="gallery-modal">
+      <div class="modal__wrapper">
+        <button class="modal__close gallery__close">&times;</button>
+        <div class="modal__image">
+          <img src="./images/gallery/gallery-modal.webp" alt="gallery image" />
+        </div>
+      </div>
+    </div>
+
+    <div id="overlay"></div>
+
+    <script src="./js/script.js"></script>
+  </body>
+</html>
